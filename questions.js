@@ -152,7 +152,6 @@
   add("costes","Reto","tf","Con costes fijos constantes y CVu constante, el coste total aumenta linealmente con la producción.",true,"CT = CF + CVu × Q es una función lineal de Q.","Observa la fórmula del coste total.");
   add("costes","Reto","mcq","Una empresa quiere comparar dos niveles de producción. ¿Qué magnitud indica el coste adicional asociado al aumento de producción?","El coste marginal","El coste marginal mide el incremento de CT por el incremento de Q.","Busca la magnitud incremental.",["El coste marginal","El coste fijo total","El precio de venta","La productividad global"]);
   add("costes","Reto","number","En Q=200, CT=3.800 €. En Q=300, CT=4.700 €. Calcula el coste marginal medio entre ambos niveles.",9,"CMg = (4.700 − 3.800) / (300 − 200) = 900 / 100 = 9 €/ud.","Usa ΔCT / ΔQ.");
-  add("costes","Reto","number","Con Q=400, CF=2.000 € y CV=4.000 €, calcula el coste medio total.",15,"CT = 6.000 €. CMe = 6.000 / 400 = 15 €/ud.","Suma primero CF y CV.");
 
   // =========================================================
   // 3. PUNTO MUERTO — 40 preguntas
