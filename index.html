@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Práctica interactiva del Tema 4 de Empresa y Diseño de Modelos de Negocio: productividad, costes, punto muerto, FIFO y PMP.">
+  <title>Tema 4 · Practica la PAU | EDMN 2.º Bachillerato</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-home>
+      <span class="brand-mark">EDMN</span>
+      <span><strong>Tema 4</strong><small>Practica la PAU</small></span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" id="calcToggle" aria-label="Abrir calculadora">🧮 <span>Calculadora</span></button>
+      <button class="icon-btn" id="homeBtn" aria-label="Ir al inicio">⌂ <span>Inicio</span></button>
+    </div>
+  </header>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <aside id="calculator" class="calculator" aria-hidden="true">
+    <div class="calc-head">
+      <strong>Calculadora</strong>
+      <button id="calcClose" aria-label="Cerrar calculadora">×</button>
+    </div>
+    <input id="calcDisplay" inputmode="decimal" autocomplete="off" aria-label="Pantalla de calculadora">
+    <div class="calc-grid">
+      <button data-calc="C" class="muted">C</button><button data-calc="(">(</button><button data-calc=")">)</button><button data-calc="/" class="op">÷</button>
+      <button data-calc="7">7</button><button data-calc="8">8</button><button data-calc="9">9</button><button data-calc="*" class="op">×</button>
+      <button data-calc="4">4</button><button data-calc="5">5</button><button data-calc="6">6</button><button data-calc="-" class="op">−</button>
+      <button data-calc="1">1</button><button data-calc="2">2</button><button data-calc="3">3</button><button data-calc="+" class="op">+</button>
+      <button data-calc="0">0</button><button data-calc=".">,</button><button data-calc="⌫">⌫</button><button data-calc="=" class="equals">=</button>
+    </div>
+    <p class="calc-note">Puedes usarla durante la práctica y el modo examen.</p>
+  </aside>
+
+  <footer>
+    <span>EDMN · 2.º Bachillerato</span>
+    <span>D’economíaBlog</span>
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
