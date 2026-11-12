@@ -307,7 +307,7 @@
   add("fifo-pmp","Reto","mcq","¿Cuál es la respuesta PAU más completa si los precios suben?","FIFO, porque deja como existencias finales las entradas más recientes, valoradas a precios más actuales","La elección debe relacionarse con la evolución de precios y con el modo en que FIFO valora las existencias finales.","No basta con nombrar el método.",["FIFO, porque deja como existencias finales las entradas más recientes, valoradas a precios más actuales","FIFO","PMP","Los dos son iguales siempre"]);
   add("fifo-pmp","Reto","mcq","Una empresa recibe operaciones desordenadas por fechas. ¿Cuál debe ser el primer paso antes de aplicar FIFO o PMP?","Ordenarlas cronológicamente","La ficha debe reflejar la secuencia real de entradas y salidas.","Sin orden temporal no sabes qué existencias había disponibles.",["Ordenarlas cronológicamente","Sumar todos los precios","Usar el precio de venta","Calcular el beneficio"]);
 
-  const counts = Q.reduce((a,q) => {
+  add("punto-muerto","Reto","number","Una empresa tiene CF=15.000 €, precio de venta=40 € y un punto muerto de 750 unidades. Calcula el coste variable unitario.",20,"Del punto muerto: p − CVu = CF / Q = 15.000 / 750 = 20 €. Por tanto, CVu = 40 − 20 = 20 €.","Despeja primero el margen de contribución unitario.");\n\n  const counts = Q.reduce((a,q) => {
     a[q.block] = (a[q.block] || 0) + 1;
     return a;
   }, {});
